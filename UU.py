@@ -10,3 +10,5 @@ def createMofo():
     newMofo.name = input("\n Insert Name:")
     print("The mofo named {newMofo.name} is created.")
 
+def makeMofoStrong(mofobject):
+    mofobject.atk = 100
